@@ -1,0 +1,36 @@
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/****** style navbar *****/
+nav li a{
+    text-decoration: none;
+    margin-right: 15px;
+    /* font-size: 1.5em; */
+    color: #8987A1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav li{
+    list-style: none;
+    font-size: 1.5em;
+}
+.home-bold{
+    font-weight: bold;
+    color: #252432;
+}
+.price-tag{
+    font-size: 2rem;
+}
+.section-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+}
+/* banner section */
+
