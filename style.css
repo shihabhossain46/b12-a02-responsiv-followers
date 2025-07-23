@@ -92,6 +92,9 @@ nav li{
     border: none;
     font-family: sans-serif;
 }
+button:hover{
+    background-color: blue;
+}
 
 
 
