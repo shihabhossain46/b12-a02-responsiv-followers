@@ -124,6 +124,67 @@ button:hover{
     margin-top: 10%;
     color: rgba(0, 0, 0, 0.5);
 }
+/* zambo container edit */
+.zambo-civi{
+    text-align: center;
+    margin-top: 6%;
+    
+}
+.zambo-plan{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    /* column-gap: 1.5%; */
+    position: relative;
+    margin: 10px;
+    z-index: 0;
+}
+.first-back-picture{
+    background-image: url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 363px;
+    height: 206px;
+    border-radius: 5%;
+    align-items: center;
+    /* filter: brightness(60%); */
+    font-size: 1.2rem;
+}
+.second-back{
+    background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 363px;
+    height: 206px;
+    position: absolute;
+    bottom: 1.5%;
+    border-radius: 5%;
+    /* filter: brightness(60%); */
+    font-size: 1.2rem;
+    
+}
+.one-back-pic{
+    background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 743px;
+    height: 423px;
+    border-radius: 5%;
+    /* filter: brightness(60%); */
+    font-size: 2rem;
+    
+    
+}
+.back-head{
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 20%;
+}
+.back-under{
+    color: #FFFFFF;
+    font-weight: 700;
+    
+}
+
 
 
 
@@ -163,6 +224,33 @@ button:hover{
                                 margin: 0;
                                 padding: 8%;
                             }
+                                .banner-des{
+                                    margin-top: 3%;
+                                }
+                                    .images{
+                                       margin-left: 15%;
+                                       margin-right: 15%;
+                                    }
+                                .zambo-plan{
+                                    grid-template-columns: repeat(1, 1fr);
+                                    padding: 5%;
+                                }
+                                    .one-back-pic{
+                                        margin-top: 80%;
+                                        width: 100%;
+                                        height: 48%;
+                                    }
+                                        .second-back{
+                                            bottom: 30%;
+                                            left: 6%;
+                                            width: 88%;
+                                            height: 35%;
+                                        }
+                                            .first-back-picture{
+                                               width: 97%;
+                                               height: 160%;
+                                               margin-left: 1%;
+                                            }
       
     
 }
