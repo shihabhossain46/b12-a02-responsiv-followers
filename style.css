@@ -124,8 +124,8 @@ button:hover{
     margin-top: 10%;
     color: rgba(0, 0, 0, 0.5);
 }
-/* zambo container edit */
-.zambo-civi{
+/* deal section */
+.deal-section{
     text-align: center;
     margin-top: 6%;
     
@@ -184,6 +184,76 @@ button:hover{
     font-weight: 700;
     
 }
+/* join section style */
+.join-section{
+    height: 80vh;
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+}
+.join-title{
+    font-size: 3.5rem;
+    color: white; 
+    font-weight: bold; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+}
+.input-button{
+    position: absolute;
+    width: 56%;
+    left: 23%;
+    top: 20%;
+}
+.input-box{
+    padding: 3% 25%;
+    background-color: white;
+    border: none;
+}
+.btn-primary{
+    padding:3% 6% ;
+    border-radius: 5%;
+    background-color: #E95A08;
+    border: none;
+}
+/* footer style */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-des{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-second-nav{
+    line-height: 5vh;
+}
+.footer-second-nav li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-second-nav li{
+    list-style: none;
+}
+.footer-nav{
+    line-height: 5vh;
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-nav li{
+    list-style: none;
+}
+.nav-logo-bar img{
+    margin-right: 20px;
+}
+
 
 
 
@@ -251,6 +321,29 @@ button:hover{
                                                height: 160%;
                                                margin-left: 1%;
                                             }
+                                        .join-section{
+                                            width: 546px;
+                                            margin-top: 20%;
+                                            margin-left: 1.5%; 
+                                        }
+                                    .input-button{
+                                        width: 400px;
+                                        left: 15%;  
+                                    }
+                                .input-box{
+                                    padding: 5% 10%;
+                                }
+                            .btn-primary{
+                                padding: 5% 5%;
+                            }
+                        .footer-section{
+                            flex-direction: column;
+                            margin-left: 50px;
+                            line-height: 20px;
+                        }
+                    .nav-logo-bar{
+                        margin-top: 20px;
+                    }
       
     
 }
